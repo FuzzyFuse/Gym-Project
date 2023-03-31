@@ -315,103 +315,117 @@ color: black;
     
    
 }
+.testinomials {
+        height: 680px;
+        background:rgba(0, 0, 0, 0.612)  url(images/gym_bg.jpg);
+        background-blend-mode: darken;
+        background-attachment: fixed;
+    }
 
-.testinomials
-{
-    height: 680px;
-    background-image: url(background-05-1920x850.jpg);     
-}
-.testi-content
-{
-    width: 800px;
-    margin: auto;
-  
-}
+    .testi-content {
+        width: 800px;
+        margin: auto;
+        padding: 70px 0;
+        text-align: center;
+    }
 
-.testi-title
-{
-    color: whitesmoke;
-}
-.testi-hr
-{
-    margin-top: 20px;
-    background-color: white;
-}
-.testi-inverted
-{
-    font-size: 54px;
-    text-align: center;
-    margin-top: 50px;
-}
-.testi-subtitle{
+    .testi-title {
+        color: whitesmoke;
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-    width: 800px;
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-}
-.testi-info
-{
-    width: 200px;
-    height: 200px;
-  
-    margin: auto;
-    margin-top: 30px;
+    .testi-hr {
+        margin-top: 20px;
+        background-color: white;
+    }
 
-}
-.testi-logo
-{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: blue;
-    margin: auto;
+    .testi-inverted {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
 
-}
-.testi-name
-{
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: 600;
-    color: white;
-    text-align: center;
-}
-.testi-surname {
-    font-size: 15px;
+    .testi-subtitle {
+
+        width: 800px;
         color: white;
         text-align: center;
-}
-.testi-leftright
-{
-    gap: 10px;
-   justify-content: center;
-}
-.testi-left
-{   width: 20px;
-    height: 20px;
-   color: white;
-   line-height: 20px;
-   text-align: center;
-    border: 1px solid white;
-}
-.testi-left:hover
-{
-    background-color: black;
-    border: none;
-    transform: scalex(1.2)scaleY(1.2);
-}
+        margin-top: 50px;
+    }
 
-.testi-right {
-    width: 20px;
-        height: 20px;
-    color: white;
-    line-height: 20px;
+    .testi-info {
+        width: 200px;
+        height: 200px;
+
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .testi-logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-image: url(images/trstimonial_person.jpg);
+        margin: auto;
+
+    }
+
+    .testi-name {
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
         text-align: center;
-    border: 1px solid white;
-}
-.testi-right:hover {
-    background-color: black;
-    border: none;
-    transform: scalex(1.2)scaleY(1.2);
-}
+    }
 
+    .testi-surname {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+
+    .testi-leftright {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .testi-left {
+        width: 20px;
+        height: 20px;
+        color: white;
+        line-height: 20px;
+        text-align: center;
+        border: 1px solid white;
+    }
+
+    .testi-left:hover {
+        background-color: black;
+        border: none;
+        transform: scalex(1.2)scaleY(1.2);
+    }
+
+    .testi-right {
+        width: 20px;
+        height: 20px;
+        color: white;
+        line-height: 20px;
+        text-align: center;
+        border: 1px solid white;
+    }
+
+    .testi-right:hover {
+        background-color: black;
+        border: none;
+        transform: scalex(1.2)scaleY(1.2);
+    }
+
+.ad
+{
+    width: 100%;
+    background-image: linear-gradient(to right, red, yellow);
+}
+.ad img{
+    width: 100%;
+}
